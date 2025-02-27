@@ -1,0 +1,17 @@
+
+Processing makeFits.C("2016","w","0.637","1.00","tt1l")...
+Channel pass will use autoMCStats with settings: event-threshold=0, include-signal=0, hist-mode=1
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  5
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  5
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is FitDiagnostics

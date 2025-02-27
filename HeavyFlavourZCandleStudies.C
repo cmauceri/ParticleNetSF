@@ -33,6 +33,7 @@ void HeavyFlavourZCandleStudies(TString era, TString sample, TString category, T
   std::vector<TString> name  = conf::name;
   std::vector<double>  ptmin = conf::ptmin;
   std::vector<double>  ptmax = conf::ptmax;    
+  std::cout << "DEBUG 3: starting HFZCS";
   
   if (postfit) 
     {
@@ -53,6 +54,7 @@ void HeavyFlavourZCandleStudies(TString era, TString sample, TString category, T
 	  for (int i0=0; i0<name.size(); ++i0) 
 	    { 
 	      std::cout << sample<< "\n";
+
 	      makeDataMCFrom2DTemplatesTop("templates2D/"+conf::algo+"_"+sample+"_"+category+"_"+wpmin+"to"+wpmax+"_"+era+"_200to1200_templates.root",                       
 				     conf::algo+"_"+sample+"_"+category+"_"+wpmin+"to"+wpmax+"_"+era,name[i0],category,ptmin[i0],ptmax[i0]);
 	    } 
@@ -106,25 +108,31 @@ void makeDataMCFrom2DTemplatesTop(TString path2file, TString nameoutfile, TStrin
       for (unsigned int is=0; is<syst.size(); ++is) 
 	{
 	  int count = 0;
+	  std::cout<<"DEBUG: syst: "<<syst[is]<<"\n";
+	  std::cout<< "DEBUG: number of processes "<< processes_in.size()<< "\n";
 	  for (unsigned int ip=0; ip<processes_in.size(); ip+=1) 
 	    {
+	      std::cout<<"DEBUG: current process number: "<< ip<<"\n";
 	      if (syst[is]=="_") 
 		{
 		  std::cout << processes_in[ip] << " " << ip << "\n";
           
 		  TH1D *h_;
-		  if (ip>8)
+		  if (ip>6) //from 8
 		    {
-		      h_   = h1DHistoFrom2DTemplates(path2file,processes_in[ip]+"_"+syst[is]+catstr_,name,ymin,ymax,1,false);
-		      TH1D *h__  = h1DHistoFrom2DTemplates(path2file,processes_in[ip+1]+"_"+syst[is]+catstr_,name,ymin,ymax,1,false);
-		      h_->Add(h__);
+		      // h_   = h1DHistoFrom2DTemplates(path2file,processes_in[ip]+"_"+syst[is]+catstr_,name,ymin,ymax,1,false);
+		      //TH1D *h__  = h1DHistoFrom2DTemplates(path2file,processes_in[ip+1]+"_"+syst[is]+catstr_,name,ymin,ymax,1,false);
+		      //h_->Add(h__);
 		    }
-		  else if(ip<=8)
-		    {       
+		  else if(ip<=6)
+		    { 
+		      std::cout<<"DEBUG ip <=8 loop line 1 "<<ip<<"\n";
 		      h_   = h1DHistoFrom2DTemplates(path2file,processes_in[ip]+"_"+syst[is]+catstr_,name,ymin,ymax,1,false);
+		      std::cout<<"DEBUG ip <=8 loop line 2: ip +1 =  "<<ip+1<<"\n";
 		      TH1D *h__  = h1DHistoFrom2DTemplates(path2file,processes_in[ip+1]+"_"+syst[is]+catstr_,name,ymin,ymax,1,false);
-		      TH1D *h___ = h1DHistoFrom2DTemplates(path2file,processes_in[ip+2]+"_"+syst[is]+catstr_,name,ymin,ymax,1,false);
-		      h_->Add(h__); h_->Add(h___);
+		      //	      std::cout<<"DEBUG ip <=8 loop line 3: ip+2 = "<<ip+2<<" \n";
+		      //TH1D *h___ = h1DHistoFrom2DTemplates(path2file,processes_in[ip+2]+"_"+syst[is]+catstr_,name,ymin,ymax,1,false);
+		      h_->Add(h__); //h_->Add(h___);
 		    }
           
 		  h_->SetName(processes_out[count]); h_->SetLineColor(colors[count]); h_->SetFillColor(colors[count]);
@@ -139,40 +147,40 @@ void makeDataMCFrom2DTemplatesTop(TString path2file, TString nameoutfile, TStrin
 		    {
 		      nameSyst = processes_out[count]+syst[is];
 		    }
-		  if (ip>8)
+		  if (ip>6)
 		    {
-		      TH1D *h_up_   = h1DHistoFrom2DTemplates(path2file,processes_in[ip]+"_"+syst[is]+"Up_"+catstr_,name,ymin,ymax,1,false);
-		      TH1D *h_up__  = h1DHistoFrom2DTemplates(path2file,processes_in[ip+1]+"_"+syst[is]+"Up_"+catstr_,name,ymin,ymax,1,false);
-		      h_up_->Add(h_up__);
-		      h_up_->SetName(processes_out[count]+"_"+nameSyst+"Up"); h_up_->SetLineColor(colors[count]); h_up_->SetFillColor(colors[count]);
-		      if (category[ic] == "pass") { hist_out_p.push_back(h_up_); } else { hist_out_f.push_back(h_up_); }
+		      //TH1D *h_up_   = h1DHistoFrom2DTemplates(path2file,processes_in[ip]+"_"+syst[is]+"Up_"+catstr_,name,ymin,ymax,1,false);
+		      //TH1D *h_up__  = h1DHistoFrom2DTemplates(path2file,processes_in[ip+1]+"_"+syst[is]+"Up_"+catstr_,name,ymin,ymax,1,false);
+		      //h_up_->Add(h_up__);
+		      //h_up_->SetName(processes_out[count]+"_"+nameSyst+"Up"); h_up_->SetLineColor(colors[count]); h_up_->SetFillColor(colors[count]);
+		      //if (category[ic] == "pass") { hist_out_p.push_back(h_up_); } else { hist_out_f.push_back(h_up_); }
 
-		      TH1D *h_down_   = h1DHistoFrom2DTemplates(path2file,processes_in[ip]+"_"+syst[is]+"Down_"+catstr_,name,ymin,ymax,1,false);
-		      TH1D *h_down__  = h1DHistoFrom2DTemplates(path2file,processes_in[ip+1]+"_"+syst[is]+"Down_"+catstr_,name,ymin,ymax,1,false);
-		      h_down_->Add(h_down__); 
-		      h_down_->SetName(processes_out[count]+"_"+nameSyst+"Down"); h_down_->SetLineColor(colors[count]); h_down_->SetFillColor(colors[count]);
-		      if (category[ic] == "pass") { hist_out_p.push_back(h_down_); } else { hist_out_f.push_back(h_down_); }
+		      //		      TH1D *h_down_   = h1DHistoFrom2DTemplates(path2file,processes_in[ip]+"_"+syst[is]+"Down_"+catstr_,name,ymin,ymax,1,false);
+		      //TH1D *h_down__  = h1DHistoFrom2DTemplates(path2file,processes_in[ip+1]+"_"+syst[is]+"Down_"+catstr_,name,ymin,ymax,1,false);
+		      //h_down_->Add(h_down__); 
+		      //h_down_->SetName(processes_out[count]+"_"+nameSyst+"Down"); h_down_->SetLineColor(colors[count]); h_down_->SetFillColor(colors[count]);
+		      //if (category[ic] == "pass") { hist_out_p.push_back(h_down_); } else { hist_out_f.push_back(h_down_); }
 		    }
 		  else if (ip<=8)
 		    {
 		      TH1D *h_up_   = h1DHistoFrom2DTemplates(path2file,processes_in[ip]+"_"+syst[is]+"Up_"+catstr_,name,ymin,ymax,1,false);
 		      TH1D *h_up__  = h1DHistoFrom2DTemplates(path2file,processes_in[ip+1]+"_"+syst[is]+"Up_"+catstr_,name,ymin,ymax,1,false);
 		      h_up_->Add(h_up__);
-		      TH1D *h_up___ = h1DHistoFrom2DTemplates(path2file,processes_in[ip+2]+"_"+syst[is]+"Up_"+catstr_,name,ymin,ymax,1,false);
-		      h_up_->Add(h_up___); 
+		      //TH1D *h_up___ = h1DHistoFrom2DTemplates(path2file,processes_in[ip+2]+"_"+syst[is]+"Up_"+catstr_,name,ymin,ymax,1,false);
+		      //h_up_->Add(h_up___); 
 		      h_up_->SetName(processes_out[count]+"_"+nameSyst+"Up"); h_up_->SetLineColor(colors[count]); h_up_->SetFillColor(colors[count]);
 		      if (category[ic] == "pass") { hist_out_p.push_back(h_up_); } else { hist_out_f.push_back(h_up_); }
 	  
 		      TH1D *h_down_   = h1DHistoFrom2DTemplates(path2file,processes_in[ip]+"_"+syst[is]+"Down_"+catstr_,name,ymin,ymax,1,false);
 		      TH1D *h_down__  = h1DHistoFrom2DTemplates(path2file,processes_in[ip+1]+"_"+syst[is]+"Down_"+catstr_,name,ymin,ymax,1,false);
 		      h_down_->Add(h_down__); 
-		      TH1D *h_down___ = h1DHistoFrom2DTemplates(path2file,processes_in[ip+2]+"_"+syst[is]+"Down_"+catstr_,name,ymin,ymax,1,false);
-		      h_down_->Add(h_down___);
+		      //TH1D *h_down___ = h1DHistoFrom2DTemplates(path2file,processes_in[ip+2]+"_"+syst[is]+"Down_"+catstr_,name,ymin,ymax,1,false);
+		      //h_down_->Add(h_down___);
 		      h_down_->SetName(processes_out[count]+"_"+nameSyst+"Down"); h_down_->SetLineColor(colors[count]); h_down_->SetFillColor(colors[count]);
 		      if (category[ic] == "pass") { hist_out_p.push_back(h_down_); } else { hist_out_f.push_back(h_down_); }
 		    }
 		}
-	      ip = ip+2;
+	      ip = ip+1;
 	      ++count;
 	    }
 	} // end of looping over the syst 
@@ -303,10 +311,15 @@ TH1D *h1DHistoFrom2DTemplates(TString path2file,TString h2dname, TString name, d
   gStyle->SetOptFit(0);
   gStyle->SetPalette(1);
 
-
+  std::cout << "DEBUG4:h2dname: " << h2dname << " name: "<< name << "\n";
   TFile *f2d = TFile::Open(path2file,"READONLY");
+  std::cout << "DEBUG 5: opened file for hfzcs\n";
+  std::cout << "FILENAME"<< path2file << "\n";
+
   TH2D  *h2d = (TH2D*)f2d->Get(h2dname); h2d->SetDirectory(0);
+  std::cout << "DEBUG 6: Projection\n";
   TH1D  *h1d = h2d->ProjectionX("h1d_"+h2dname,h2d->GetYaxis()->FindBin(ymin),h2d->GetYaxis()->FindBin(ymax),"e"); h1d->SetDirectory(0);
+  
   h1d->SetName(h2dname+"_"+name);
   h1d->SetLineColor(color);
   if (isdata)
@@ -349,7 +362,7 @@ void makeDataMCPlotFromCombine(TString path2file, TString era, TString category,
   TString fdiag_ = "./"+path2file+"_sf/fitdir/fitdiagnostics_"+path2file+"_"+sample+"_"+category+"_"+wpmin+"to"+wpmax+"_"+era+"_"+name+".root";
   std::cout << " Opening fitdiagnostics: " << fdiag_ << "\n";
   TFile *fdiag = TFile::Open(fdiag_, "READONLY" );
-
+  std::cout << "DEBUG 6: opened fit diagnostics";
   std::vector<TString> processes; processes.clear();
   std::vector<int> colors;        colors.clear();
   std::vector<TString> legends;   legends.clear();
@@ -365,7 +378,7 @@ void makeDataMCPlotFromCombine(TString path2file, TString era, TString category,
 
   // get prefit histograms
   TString prefitstr = "shapes_prefit";
-
+  std::cout << "DEBUG 7: getting fit diagnostic tree";
   TTree *tree = (TTree*)fdiag->Get("tree_fit_sb");
   TH1F *h_fit_status = new TH1F("h_fit_status_","h_fit_status_",20,-10.,10.); 
   tree->Project("h_fit_status_","fit_status");

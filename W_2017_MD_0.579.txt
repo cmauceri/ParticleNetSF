@@ -1,0 +1,439 @@
+
+Processing makeFits.C("2017","w","0.579","1.00","tt1l")...
+Channel pass will use autoMCStats with settings: event-threshold=0, include-signal=0, hist-mode=1
+============================================================
+Analysing bin errors for: prop_binpass
+Poisson cut-off: 0
+Processes excluded for sums: other
+============================================================
+Bin        Contents        Error           Notes                         
+0          0.312000        0.017664        total sum                     
+0          0.234000        0.015297        excluding marked processes    
+0          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+1          0.312000        0.017664        total sum                     
+1          0.234000        0.015297        excluding marked processes    
+1          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin1[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+2          0.312000        0.017664        total sum                     
+2          0.234000        0.015297        excluding marked processes    
+2          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin2[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+3          0.312000        0.017664        total sum                     
+3          0.234000        0.015297        excluding marked processes    
+3          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin3[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+4          0.312000        0.017664        total sum                     
+4          0.234000        0.015297        excluding marked processes    
+4          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin4[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+5          0.312000        0.017664        total sum                     
+5          0.234000        0.015297        excluding marked processes    
+5          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin5[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+6          0.312000        0.017664        total sum                     
+6          0.234000        0.015297        excluding marked processes    
+6          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin6[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+7          0.312000        0.017664        total sum                     
+7          0.234000        0.015297        excluding marked processes    
+7          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin7[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+8          0.312000        0.017664        total sum                     
+8          0.234000        0.015297        excluding marked processes    
+8          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin8[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+9          0.312000        0.017664        total sum                     
+9          0.234000        0.015297        excluding marked processes    
+9          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin9[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+10         0.312000        0.017664        total sum                     
+10         0.234000        0.015297        excluding marked processes    
+10         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin10[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+11         0.312000        0.017664        total sum                     
+11         0.234000        0.015297        excluding marked processes    
+11         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin11[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+12         0.312000        0.017664        total sum                     
+12         0.234000        0.015297        excluding marked processes    
+12         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin12[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+13         0.312000        0.017664        total sum                     
+13         0.234000        0.015297        excluding marked processes    
+13         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin13[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+14         0.312000        0.017664        total sum                     
+14         0.234000        0.015297        excluding marked processes    
+14         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin14[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+15         0.312000        0.017664        total sum                     
+15         0.234000        0.015297        excluding marked processes    
+15         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin15[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+16         0.312000        0.017664        total sum                     
+16         0.234000        0.015297        excluding marked processes    
+16         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin16[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+17         0.312000        0.017664        total sum                     
+17         0.234000        0.015297        excluding marked processes    
+17         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin17[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+18         0.312000        0.017664        total sum                     
+18         0.234000        0.015297        excluding marked processes    
+18         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin18[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+19         0.312000        0.017664        total sum                     
+19         0.234000        0.015297        excluding marked processes    
+19         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin19[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+20         0.312000        0.017664        total sum                     
+20         0.234000        0.015297        excluding marked processes    
+20         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin20[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+21         0.312000        0.017664        total sum                     
+21         0.234000        0.015297        excluding marked processes    
+21         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin21[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+22         0.312000        0.017664        total sum                     
+22         0.234000        0.015297        excluding marked processes    
+22         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin22[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+23         0.312000        0.017664        total sum                     
+23         0.234000        0.015297        excluding marked processes    
+23         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin23[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+24         0.312000        0.017664        total sum                     
+24         0.234000        0.015297        excluding marked processes    
+24         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin24[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+25         0.312000        0.017664        total sum                     
+25         0.234000        0.015297        excluding marked processes    
+25         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin25[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+26         0.312000        0.017664        total sum                     
+26         0.234000        0.015297        excluding marked processes    
+26         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin26[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+27         0.312000        0.017664        total sum                     
+27         0.234000        0.015297        excluding marked processes    
+27         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin27[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+28         0.312000        0.017664        total sum                     
+28         0.234000        0.015297        excluding marked processes    
+28         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin28[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+29         0.312000        0.017664        total sum                     
+29         0.234000        0.015297        excluding marked processes    
+29         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin29[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+30         0.312000        0.017664        total sum                     
+30         0.234000        0.015297        excluding marked processes    
+30         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin30[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+31         0.312000        0.017664        total sum                     
+31         0.234000        0.015297        excluding marked processes    
+31         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin31[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+32         0.312000        0.017664        total sum                     
+32         0.234000        0.015297        excluding marked processes    
+32         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binpass_bin32[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+33         0.000000        0.000000        total sum                     
+33         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+Channel fail will use autoMCStats with settings: event-threshold=0, include-signal=0, hist-mode=1
+============================================================
+Analysing bin errors for: prop_binfail
+Poisson cut-off: 0
+Processes excluded for sums: other
+============================================================
+Bin        Contents        Error           Notes                         
+0          0.312000        0.017664        total sum                     
+0          0.234000        0.015297        excluding marked processes    
+0          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+1          0.312000        0.017664        total sum                     
+1          0.234000        0.015297        excluding marked processes    
+1          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin1[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+2          0.312000        0.017664        total sum                     
+2          0.234000        0.015297        excluding marked processes    
+2          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin2[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+3          0.312000        0.017664        total sum                     
+3          0.234000        0.015297        excluding marked processes    
+3          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin3[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+4          0.312000        0.017664        total sum                     
+4          0.234000        0.015297        excluding marked processes    
+4          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin4[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+5          0.312000        0.017664        total sum                     
+5          0.234000        0.015297        excluding marked processes    
+5          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin5[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+6          0.312000        0.017664        total sum                     
+6          0.234000        0.015297        excluding marked processes    
+6          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin6[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+7          0.312000        0.017664        total sum                     
+7          0.234000        0.015297        excluding marked processes    
+7          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin7[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+8          0.312000        0.017664        total sum                     
+8          0.234000        0.015297        excluding marked processes    
+8          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin8[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+9          0.312000        0.017664        total sum                     
+9          0.234000        0.015297        excluding marked processes    
+9          234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin9[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+10         0.312000        0.017664        total sum                     
+10         0.234000        0.015297        excluding marked processes    
+10         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin10[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+11         0.312000        0.017664        total sum                     
+11         0.234000        0.015297        excluding marked processes    
+11         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin11[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+12         0.312000        0.017664        total sum                     
+12         0.234000        0.015297        excluding marked processes    
+12         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin12[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+13         0.312000        0.017664        total sum                     
+13         0.234000        0.015297        excluding marked processes    
+13         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin13[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+14         0.312000        0.017664        total sum                     
+14         0.234000        0.015297        excluding marked processes    
+14         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin14[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+15         0.312000        0.017664        total sum                     
+15         0.234000        0.015297        excluding marked processes    
+15         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin15[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+16         0.312000        0.017664        total sum                     
+16         0.234000        0.015297        excluding marked processes    
+16         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin16[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+17         0.312000        0.017664        total sum                     
+17         0.234000        0.015297        excluding marked processes    
+17         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin17[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+18         0.312000        0.017664        total sum                     
+18         0.234000        0.015297        excluding marked processes    
+18         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin18[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+19         0.312000        0.017664        total sum                     
+19         0.234000        0.015297        excluding marked processes    
+19         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin19[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+20         0.312000        0.017664        total sum                     
+20         0.234000        0.015297        excluding marked processes    
+20         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin20[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+21         0.312000        0.017664        total sum                     
+21         0.234000        0.015297        excluding marked processes    
+21         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin21[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+22         0.312000        0.017664        total sum                     
+22         0.234000        0.015297        excluding marked processes    
+22         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin22[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+23         0.312000        0.017664        total sum                     
+23         0.234000        0.015297        excluding marked processes    
+23         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin23[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+24         0.312000        0.017664        total sum                     
+24         0.234000        0.015297        excluding marked processes    
+24         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin24[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+25         0.312000        0.017664        total sum                     
+25         0.234000        0.015297        excluding marked processes    
+25         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin25[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+26         0.312000        0.017664        total sum                     
+26         0.234000        0.015297        excluding marked processes    
+26         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin26[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+27         0.312000        0.017664        total sum                     
+27         0.234000        0.015297        excluding marked processes    
+27         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin27[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+28         0.312000        0.017664        total sum                     
+28         0.234000        0.015297        excluding marked processes    
+28         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin28[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+29         0.312000        0.017664        total sum                     
+29         0.234000        0.015297        excluding marked processes    
+29         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin29[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+30         0.312000        0.017664        total sum                     
+30         0.234000        0.015297        excluding marked processes    
+30         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin30[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+31         0.312000        0.017664        total sum                     
+31         0.234000        0.015297        excluding marked processes    
+31         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin31[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+32         0.312000        0.017664        total sum                     
+32         0.234000        0.015297        excluding marked processes    
+32         234.000000      15.297059       Unweighted events, alpha=0.001333
+  => Total parameter prop_binfail_bin32[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+33         0.000000        0.000000        total sum                     
+33         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  5
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+SimNLL created with 2 channels, 9 generic constraints, 74 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ 
+
+ ---------------------------
+
+ WARNING: MultiDimFit failed
+
+ ---------------------------
+
+ 
+Done in 0.00 min (cpu), 0.00 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  5
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is FitDiagnostics
+SimNLL created with 0 channels, 9 generic constraints, 74 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 2 channels, 9 generic constraints, 74 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ --- FitDiagnostics ---
+Fit failed.
+Done in 0.03 min (cpu), 0.04 min (real)
+Have POIs: ['SF_tp2', 'SF_tp3', 'SF_tp1', 'SF_other']
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+SimNLL created with 2 channels, 9 generic constraints, 74 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+
+ 
+
+ ---------------------------
+
+ WARNING: MultiDimFit failed
+
+ ---------------------------
+
+ 
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine -M MultiDimFit -n _initialFit_Test --algo singles --redefineSignalPOIs SF_tp2,SF_tp3,SF_tp1,SF_other --robustFit 1 -m 125 -d particlenetmd_sf/fitdir/datacard_particlenetmd_tt1l_w_0.579to1.00_2017_pt200to800.root
+Have POIs: ['SF_tp2', 'SF_tp3', 'SF_tp1', 'SF_other']
+File higgsCombine_initialFit_Test.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+Have parameters: 18
+Have POIs: ['SF_tp2', 'SF_tp3', 'SF_tp1', 'SF_other']
+File higgsCombine_initialFit_Test.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+Have parameters: 18
+
+Processing HeavyFlavourZCandleStudies.C("2017","tt1l","w","0.579","1.00",true,"pass","jmcor")...
+DEBUG 3: starting HFZCSpostfit: tt1l w 0.579to1.00 pass
+ In makeDataMCPlotFromCombine
+ Opening fitdiagnostics: ./particlenetmd_sf/fitdir/fitdiagnostics_particlenetmd_tt1l_w_0.579to1.00_2017_pt200to800.root
+DEBUG 6: opened fit diagnostics sample = tt1l , category = w
+DEBUG 7: getting fit diagnostic treeshapes_prefit/pass/tp3
+shapes_prefit/pass/tp2
+shapes_prefit/pass/tp1
+shapes_prefit/pass/other
+shapes_prefit/pass/total
+ i m here 12-d
+ i m here 12-e
+
+Processing HeavyFlavourZCandleStudies.C("2017","tt1l","w","0.579","1.00",true,"fail","jmcor")...
+DEBUG 3: starting HFZCSpostfit: tt1l w 0.579to1.00 fail
+ In makeDataMCPlotFromCombine
+ Opening fitdiagnostics: ./particlenetmd_sf/fitdir/fitdiagnostics_particlenetmd_tt1l_w_0.579to1.00_2017_pt200to800.root
+DEBUG 6: opened fit diagnostics sample = tt1l , category = w
+DEBUG 7: getting fit diagnostic treeshapes_prefit/fail/tp3
+shapes_prefit/fail/tp2
+shapes_prefit/fail/tp1
+shapes_prefit/fail/other
+shapes_prefit/fail/total
+ i m here 12-d
+ i m here 12-e

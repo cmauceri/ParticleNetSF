@@ -85,7 +85,7 @@ void makeOneDatacardTop(TString inputname, TString category, TString wpmin, TStr
   std::cout << "other_xsec   lnU      - - - 2.00    - - - 2.00 \n";
   
   std::cout << "\n";
-
+  
   std::cout << "tp3jms       shapeU    1 - - -     1 - - - \n";  
   std::cout << "tp2jms       shapeU    - 1 - -     - 1 - - \n";
   std::cout << "tp1jms       shapeU    - - 1 -     - - 1 - \n";
@@ -100,8 +100,8 @@ void makeOneDatacardTop(TString inputname, TString category, TString wpmin, TStr
   std::cout << "jes         shape    1 1 1 1     1 1 1 1 \n";
   std::cout << "jer         shape    1 1 1 1     1 1 1 1 \n";
   std::cout << "met         shape    1 1 1 1     1 1 1 1 \n";
-  std::cout << "lhescalemuf shape    1 1 1 1     1 1 1 1 \n";
-  std::cout << "lhescalemur shape    1 1 1 1     1 1 1 1 \n";
+  //  std::cout << "lhescalemuf shape    1 1 1 1     1 1 1 1 \n";
+  //std::cout << "lhescalemur shape    1 1 1 1     1 1 1 1 \n";
   //std::cout << "lhepdf      shape    1 1 1 1     1 1 1 1 \n";
     
   std::cout << "norm_top    rateParam    pass    tp3      1   [0.,10.]\n";

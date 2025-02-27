@@ -132,13 +132,17 @@ void makeTemplatesTop(TString path2file, TString era, TString cat, TString wpmin
 	{
 	  if(name_ == "lhescalemuf")
 	    {
-	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi+"*(LHEScaleWeight[5]*LHEScaleWeightNorm[5])/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
-	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi+"*(LHEScaleWeight[3]*LHEScaleWeightNorm[3])/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi+"*(LHEScaleWeight[5]*LHEScaleWeightNorm[5])/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      // makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi+"*(LHEScaleWeight[3]*LHEScaleWeightNorm[3])/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
 	    }
 	  else if(name_ == "lhescalemur")
 	    {
-	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi+"*(LHEScaleWeight[7]*LHEScaleWeightNorm[7])/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
-	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi+"*LHEScaleWeight[1]*LHEScaleWeightNorm[1]/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi+"*(LHEScaleWeight[7]*LHEScaleWeightNorm[7])/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);           
+	      //makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi+"*LHEScaleWeight[1]*LHEScaleWeightNorm[1]/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
 	    }                
 	  else
 	    {     
@@ -160,9 +164,10 @@ void makeMCHistosTop(TString name, TString path, std::vector<TString> processes,
   if ( sysType == "Up" ) { sys_type = "_up/"; } if ( sysType == "Down" ) { sys_type ="_down/"; }
 		    
   TString sys_dir; 
-  if      ( (sys == "nom") || (sys == "pu") || (sys == "jms") || (sys == "jmr") ) { sys_dir = "/mc_nom/"; }  
-  else if ( (sys.Contains("lhe")) || (sys.Contains("ps")) ) { sys_dir = "/mc_sys/LHEWeight/"; }
-  else                                                      { sys_dir = "/mc_sys/"+sys+sys_type; }
+  if      ( (sys == "nom") || (sys == "pu") || (sys == "jms") || (sys == "jmr") ) { sys_dir = "/mc/"; } // changed from mc_nom 
+  else if ( (sys.Contains("lhe")) || (sys.Contains("ps")) ) { sys_dir = "/mc/"; } // changed from mc_sys/LHEWeight/
+
+  else                                                      { sys_dir = "/mc/"; } //changed from mc_sys/ +sys+sys_type
 
   if ( (sys == "nom") ) { name = name+"_"+sys; }
   else                  { name = name+"_"+sys+sysType; }
@@ -178,8 +183,9 @@ void makeMCHistosTop(TString name, TString path, std::vector<TString> processes,
     TFile *f = TFile::Open(path+"/"+sys_dir+processes[i0]+"_tree.root","READONLY");
     TTree *t = (TTree*)f->Get("Events");
    
-    if ( (process_names[i0] == "tt") || (process_names[i0] == "st") || (process_names[i0] == "ttv")) 
+    if ( (process_names[i0] == "tt") || (process_names[i0] == "st")) // removed: || (process_names[i0] == "ttv")) 
       {
+	std::cout << "DEBUG 1: creating histos";
 	TH2D *h_p3_p = create2Dhisto(name,t,wgts,cuts[1]+"&&"+cuts[4],brX,binsX,minX,maxX,brY,binsY,minY,maxY,false,"h_"+name+"_"+process_names[i0]+"_p3_p",false); h2ds.push_back(h_p3_p); h2ds_names.push_back(process_names[i0]+"_p3_"+name_b+"_pass"); 
 	TH2D *h_p2_p = create2Dhisto(name,t,wgts,cuts[2]+"&&"+cuts[4],brX,binsX,minX,maxX,brY,binsY,minY,maxY,false,"h_"+name+"_"+process_names[i0]+"_p2_p",false); h2ds.push_back(h_p2_p); h2ds_names.push_back(process_names[i0]+"_p2_"+name_b+"_pass");
 	TH2D *h_p1_p = create2Dhisto(name,t,wgts,cuts[3]+"&&"+cuts[4],brX,binsX,minX,maxX,brY,binsY,minY,maxY,false,"h_"+name+"_"+process_names[i0]+"_p1_p",false); h2ds.push_back(h_p1_p); h2ds_names.push_back(process_names[i0]+"_p1_"+name_b+"_pass");
@@ -211,7 +217,7 @@ void makeMCHistosTop(TString name, TString path, std::vector<TString> processes,
   // write histos to file
   f_->cd();
   for (unsigned int i0=0; i0<h2ds.size(); ++i0) { h2ds[i0]->Write(h2ds_names[i0]); }
-  
+  std::cout << "DEBUG 2: wrote mc histograms to file";
 } // end of makeMCHistosTop
 
 
@@ -262,6 +268,8 @@ TH2D *create2Dhisto(TString sample, TTree *tree,TString intLumi,TString cuts,TSt
   else
     {
       std::cout << " In else \n"; 
+      std::cout << name; 
+      
       tree->Project(name,branchY+":"+branchX,cut); 
     }
   

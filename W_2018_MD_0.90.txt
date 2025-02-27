@@ -1,0 +1,955 @@
+
+Processing makeFits.C("2018","w","0.90","1.00","tt1l")...
+Channel pass will use autoMCStats with settings: event-threshold=0, include-signal=0, hist-mode=1
+============================================================
+Analysing bin errors for: prop_binpass
+Poisson cut-off: 0
+Processes excluded for sums: other
+============================================================
+Bin        Contents        Error           Notes                         
+0          209.851417      3.973704        total sum                     
+0          187.171266      2.944487        excluding marked processes    
+0          4041.000000     63.568860       Unweighted events, alpha=0.051931
+  => Total parameter prop_binpass_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+1          186.982545      3.594325        total sum                     
+1          172.983471      2.821938        excluding marked processes    
+1          3758.000000     61.302528       Unweighted events, alpha=0.049756
+  => Total parameter prop_binpass_bin1[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+2          275.192062      4.319997        total sum                     
+2          257.171041      3.445084        excluding marked processes    
+2          5572.000000     74.645830       Unweighted events, alpha=0.049388
+  => Total parameter prop_binpass_bin2[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+3          293.539857      4.203181        total sum                     
+3          282.050098      3.661783        excluding marked processes    
+3          5933.000000     77.025970       Unweighted events, alpha=0.049476
+  => Total parameter prop_binpass_bin3[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+4          495.170515      5.274094        total sum                     
+4          479.993608      4.866995        excluding marked processes    
+4          9726.000000     98.620485       Unweighted events, alpha=0.050912
+  => Total parameter prop_binpass_bin4[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+5          1005.438005     7.481852        total sum                     
+5          989.686808      7.144737        excluding marked processes    
+5          19188.000000    138.520757      Unweighted events, alpha=0.052399
+  => Total parameter prop_binpass_bin5[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+6          1712.660481     9.682148        total sum                     
+6          1699.035295     9.377747        excluding marked processes    
+6          32825.000000    181.176709      Unweighted events, alpha=0.052175
+  => Total parameter prop_binpass_bin6[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+7          2067.401013     10.548538       total sum                     
+7          2048.754020     10.236774       excluding marked processes    
+7          40055.000000    200.137453      Unweighted events, alpha=0.051614
+  => Total parameter prop_binpass_bin7[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+8          1742.661259     9.506340        total sum                     
+8          1727.906377     9.293704        excluding marked processes    
+8          34567.000000    185.922027      Unweighted events, alpha=0.050414
+  => Total parameter prop_binpass_bin8[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+9          1132.191245     7.634118        total sum                     
+9          1120.654687     7.397609        excluding marked processes    
+9          22949.000000    151.489274      Unweighted events, alpha=0.049335
+  => Total parameter prop_binpass_bin9[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+10         672.251237      5.825849        total sum                     
+10         662.264610      5.610104        excluding marked processes    
+10         13935.000000    118.046601      Unweighted events, alpha=0.048242
+  => Total parameter prop_binpass_bin10[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+11         453.227980      4.831991        total sum                     
+11         441.347885      4.529317        excluding marked processes    
+11         9495.000000     97.442291       Unweighted events, alpha=0.047733
+  => Total parameter prop_binpass_bin11[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+12         342.211991      4.130742        total sum                     
+12         334.971113      3.933811        excluding marked processes    
+12         7251.000000     85.152804       Unweighted events, alpha=0.047195
+  => Total parameter prop_binpass_bin12[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+13         284.248590      3.718239        total sum                     
+13         278.609018      3.557954        excluding marked processes    
+13         6132.000000     78.307088       Unweighted events, alpha=0.046355
+  => Total parameter prop_binpass_bin13[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+14         241.567320      3.475555        total sum                     
+14         235.428501      3.294362        excluding marked processes    
+14         5107.000000     71.463277       Unweighted events, alpha=0.047301
+  => Total parameter prop_binpass_bin14[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+15         215.884062      3.280623        total sum                     
+15         210.220976      3.104471        excluding marked processes    
+15         4585.000000     67.712628       Unweighted events, alpha=0.047085
+  => Total parameter prop_binpass_bin15[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+16         186.589421      2.983557        total sum                     
+16         184.021843      2.903148        excluding marked processes    
+16         4018.000000     63.387696       Unweighted events, alpha=0.046438
+  => Total parameter prop_binpass_bin16[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+17         177.012591      2.896716        total sum                     
+17         174.072386      2.813505        excluding marked processes    
+17         3828.000000     61.870833       Unweighted events, alpha=0.046242
+  => Total parameter prop_binpass_bin17[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+18         153.189699      2.675019        total sum                     
+18         151.349956      2.636955        excluding marked processes    
+18         3294.000000     57.393379       Unweighted events, alpha=0.046506
+  => Total parameter prop_binpass_bin18[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+19         146.389168      2.598777        total sum                     
+19         144.806843      2.574532        excluding marked processes    
+19         3164.000000     56.249444       Unweighted events, alpha=0.046267
+  => Total parameter prop_binpass_bin19[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+20         134.856142      2.520773        total sum                     
+20         132.968650      2.458612        excluding marked processes    
+20         2925.000000     54.083269       Unweighted events, alpha=0.046105
+  => Total parameter prop_binpass_bin20[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+21         132.362935      2.499380        total sum                     
+21         130.777866      2.475760        excluding marked processes    
+21         2790.000000     52.820451       Unweighted events, alpha=0.047442
+  => Total parameter prop_binpass_bin21[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+22         138.570137      2.534963        total sum                     
+22         137.224191      2.515379        excluding marked processes    
+22         2976.000000     54.552727       Unweighted events, alpha=0.046563
+  => Total parameter prop_binpass_bin22[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+23         144.473737      2.612989        total sum                     
+23         143.012008      2.578045        excluding marked processes    
+23         3077.000000     55.470713       Unweighted events, alpha=0.046953
+  => Total parameter prop_binpass_bin23[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+24         145.979136      2.606717        total sum                     
+24         145.023084      2.576773        excluding marked processes    
+24         3168.000000     56.284989       Unweighted events, alpha=0.046079
+  => Total parameter prop_binpass_bin24[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+25         137.370539      2.544285        total sum                     
+25         135.917109      2.493178        excluding marked processes    
+25         2972.000000     54.516053       Unweighted events, alpha=0.046222
+  => Total parameter prop_binpass_bin25[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+26         117.896623      2.346146        total sum                     
+26         116.828634      2.328392        excluding marked processes    
+26         2518.000000     50.179677       Unweighted events, alpha=0.046822
+  => Total parameter prop_binpass_bin26[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+27         86.229812       2.020958        total sum                     
+27         85.475552       1.999393        excluding marked processes    
+27         1828.000000     42.755117       Unweighted events, alpha=0.047172
+  => Total parameter prop_binpass_bin27[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+28         57.317698       1.621853        total sum                     
+28         57.023860       1.617703        excluding marked processes    
+28         1243.000000     35.256205       Unweighted events, alpha=0.046112
+  => Total parameter prop_binpass_bin28[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+29         38.363195       1.370327        total sum                     
+29         36.973566       1.293884        excluding marked processes    
+29         817.000000      28.583212       Unweighted events, alpha=0.046956
+  => Total parameter prop_binpass_bin29[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+30         23.720641       1.030967        total sum                     
+30         23.486151       1.021255        excluding marked processes    
+30         529.000000      23.000000       Unweighted events, alpha=0.044841
+  => Total parameter prop_binpass_bin30[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+31         16.340208       0.880439        total sum                     
+31         16.042079       0.871625        excluding marked processes    
+31         339.000000      18.411953       Unweighted events, alpha=0.048201
+  => Total parameter prop_binpass_bin31[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+32         10.090847       0.734652        total sum                     
+32         9.561533        0.682509        excluding marked processes    
+32         196.000000      14.000000       Unweighted events, alpha=0.051484
+  => Total parameter prop_binpass_bin32[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+33         7.272293        0.706607        total sum                     
+33         6.877679        0.599054        excluding marked processes    
+33         132.000000      11.489125       Unweighted events, alpha=0.055093
+  => Total parameter prop_binpass_bin33[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+Channel fail will use autoMCStats with settings: event-threshold=0, include-signal=0, hist-mode=1
+============================================================
+Analysing bin errors for: prop_binfail
+Poisson cut-off: 0
+Processes excluded for sums: other
+============================================================
+Bin        Contents        Error           Notes                         
+0          5728.729706     23.688432       total sum                     
+0          5082.676117     15.487344       excluding marked processes    
+0          107704.000000   328.182876      Unweighted events, alpha=0.053190
+  => Total parameter prop_binfail_bin0[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+1          5202.743809     22.025051       total sum                     
+1          4671.626255     14.821361       excluding marked processes    
+1          99348.000000    315.195178      Unweighted events, alpha=0.052369
+  => Total parameter prop_binfail_bin1[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+2          5479.302032     21.963024       total sum                     
+2          4967.088348     15.253719       excluding marked processes    
+2          106036.000000   325.631694      Unweighted events, alpha=0.051674
+  => Total parameter prop_binfail_bin2[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+3          5386.679420     21.167257       total sum                     
+3          4923.068916     15.203176       excluding marked processes    
+3          104858.000000   323.817850      Unweighted events, alpha=0.051371
+  => Total parameter prop_binfail_bin3[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+4          6012.951984     21.473315       total sum                     
+4          5559.559742     16.204775       excluding marked processes    
+4          117705.000000   343.081623      Unweighted events, alpha=0.051085
+  => Total parameter prop_binfail_bin4[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+5          7335.990658     22.527860       total sum                     
+5          6938.495693     18.272745       excluding marked processes    
+5          144186.000000   379.718317      Unweighted events, alpha=0.050879
+  => Total parameter prop_binfail_bin5[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+6          9462.032440     24.567940       total sum                     
+6          9075.170135     21.092367       excluding marked processes    
+6          185122.000000   430.258062      Unweighted events, alpha=0.051112
+  => Total parameter prop_binfail_bin6[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+7          10770.224655    25.430245       total sum                     
+7          10450.650589    22.623285       excluding marked processes    
+7          213391.000000   461.942637      Unweighted events, alpha=0.050472
+  => Total parameter prop_binfail_bin7[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+8          10105.242722    24.362312       total sum                     
+8          9773.883774     21.697377       excluding marked processes    
+8          202918.000000   450.464205      Unweighted events, alpha=0.049800
+  => Total parameter prop_binfail_bin8[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+9          8153.326180     21.757456       total sum                     
+9          7904.487602     19.362246       excluding marked processes    
+9          166662.000000   408.242575      Unweighted events, alpha=0.048921
+  => Total parameter prop_binfail_bin9[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+10         6290.346046     19.247298       total sum                     
+10         6043.731529     16.820595       excluding marked processes    
+10         129100.000000   359.304884      Unweighted events, alpha=0.048725
+  => Total parameter prop_binfail_bin10[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+11         4984.665062     17.114766       total sum                     
+11         4792.609840     14.907489       excluding marked processes    
+11         103356.000000   321.490280      Unweighted events, alpha=0.048228
+  => Total parameter prop_binfail_bin11[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+12         4144.212143     15.434852       total sum                     
+12         3973.432175     13.541177       excluding marked processes    
+12         86103.000000    293.433127      Unweighted events, alpha=0.048131
+  => Total parameter prop_binfail_bin12[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+13         3498.334503     14.115937       total sum                     
+13         3369.760071     12.463921       excluding marked processes    
+13         73095.000000    270.360870      Unweighted events, alpha=0.047860
+  => Total parameter prop_binfail_bin13[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+14         3020.212746     13.040228       total sum                     
+14         2898.114548     11.539407       excluding marked processes    
+14         63076.000000    251.149358      Unweighted events, alpha=0.047882
+  => Total parameter prop_binfail_bin14[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+15         2596.720261     12.018086       total sum                     
+15         2500.616791     10.716983       excluding marked processes    
+15         54444.000000    233.332381      Unweighted events, alpha=0.047695
+  => Total parameter prop_binfail_bin15[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+16         2309.511826     11.339823       total sum                     
+16         2222.643463     10.115618       excluding marked processes    
+16         48279.000000    219.724828      Unweighted events, alpha=0.047837
+  => Total parameter prop_binfail_bin16[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+17         2032.771179     10.551911       total sum                     
+17         1952.946503     9.472249        excluding marked processes    
+17         42508.000000    206.174683      Unweighted events, alpha=0.047821
+  => Total parameter prop_binfail_bin17[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+18         1804.098587     9.820315        total sum                     
+18         1745.605164     8.961983        excluding marked processes    
+18         37939.000000    194.779362      Unweighted events, alpha=0.047553
+  => Total parameter prop_binfail_bin18[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+19         1605.774223     9.310106        total sum                     
+19         1545.605507     8.443952        excluding marked processes    
+19         33505.000000    183.043711      Unweighted events, alpha=0.047926
+  => Total parameter prop_binfail_bin19[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+20         1459.031677     8.712034        total sum                     
+20         1412.087578     8.046218        excluding marked processes    
+20         30799.000000    175.496439      Unweighted events, alpha=0.047373
+  => Total parameter prop_binfail_bin20[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+21         1351.368107     8.342439        total sum                     
+21         1306.846748     7.751008        excluding marked processes    
+21         28427.000000    168.603084      Unweighted events, alpha=0.047538
+  => Total parameter prop_binfail_bin21[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+22         1304.846920     8.176597        total sum                     
+22         1266.941288     7.632046        excluding marked processes    
+22         27557.000000    166.003012      Unweighted events, alpha=0.047351
+  => Total parameter prop_binfail_bin22[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+23         1270.152882     8.106504        total sum                     
+23         1235.034904     7.548274        excluding marked processes    
+23         26771.000000    163.618459      Unweighted events, alpha=0.047445
+  => Total parameter prop_binfail_bin23[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+24         1227.100672     7.864736        total sum                     
+24         1200.824619     7.446846        excluding marked processes    
+24         26002.000000    161.251357      Unweighted events, alpha=0.047193
+  => Total parameter prop_binfail_bin24[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+25         1164.459766     7.653294        total sum                     
+25         1143.264523     7.248572        excluding marked processes    
+25         24876.000000    157.721273      Unweighted events, alpha=0.046811
+  => Total parameter prop_binfail_bin25[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+26         1042.006998     7.264396        total sum                     
+26         1016.262671     6.836137        excluding marked processes    
+26         22100.000000    148.660687      Unweighted events, alpha=0.047150
+  => Total parameter prop_binfail_bin26[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+27         878.456165      6.636901        total sum                     
+27         855.597553      6.280071        excluding marked processes    
+27         18561.000000    136.238761      Unweighted events, alpha=0.047328
+  => Total parameter prop_binfail_bin27[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+28         683.097691      5.855086        total sum                     
+28         662.896725      5.524807        excluding marked processes    
+28         14397.000000    119.987499      Unweighted events, alpha=0.047447
+  => Total parameter prop_binfail_bin28[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+29         490.480768      5.088992        total sum                     
+29         471.410084      4.685196        excluding marked processes    
+29         10124.000000    100.618090      Unweighted events, alpha=0.048447
+  => Total parameter prop_binfail_bin29[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+30         350.228421      4.277845        total sum                     
+30         333.869998      3.954225        excluding marked processes    
+30         7129.000000     84.433406       Unweighted events, alpha=0.049127
+  => Total parameter prop_binfail_bin30[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+31         266.066809      3.888887        total sum                     
+31         250.666595      3.443464        excluding marked processes    
+31         5299.000000     72.794231       Unweighted events, alpha=0.050211
+  => Total parameter prop_binfail_bin31[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+32         199.661875      3.351177        total sum                     
+32         186.087359      2.924382        excluding marked processes    
+32         4049.000000     63.631753       Unweighted events, alpha=0.049311
+  => Total parameter prop_binfail_bin32[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+33         162.357605      3.080774        total sum                     
+33         151.162569      2.640138        excluding marked processes    
+33         3278.000000     57.253821       Unweighted events, alpha=0.049529
+  => Total parameter prop_binfail_bin33[0.00,-7.00,7.00] to be gaussian constrained
+------------------------------------------------------------
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  5
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [tp1jmr] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+Error: closed range without finding crossing.
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+     SF_tp2 :    +0.870   -0.021/+0.024 (68%)
+     SF_tp3 :    +1.060   -0.049/+0.061 (68%)
+     SF_tp1 :    +0.999   -0.127/+0.076 (68%)
+ Warning - No valid high-error found, will report difference to maximum of range for : SF_other
+   SF_other :    +1.641   -0.446/+0.359 (68%)
+Done in 0.03 min (cpu), 0.03 min (real)
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  5
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is FitDiagnostics
+SimNLL created with 0 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [tp1jmr] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+
+ --- FitDiagnostics ---
+Best fit SF_tp2: 0.869891  -0.0434078/+0.0240068  (68% CL)
+Done in 0.05 min (cpu), 0.05 min (real)
+Have POIs: ['SF_tp2', 'SF_tp3', 'SF_tp1', 'SF_other']
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+Error: closed range without finding crossing.
+
+ --- MultiDimFit ---
+best fit parameter values and profile-likelihood uncertainties: 
+     SF_tp2 :    +0.870   -0.044/+0.024 (68%)
+     SF_tp3 :    +1.061   -0.096/+0.111 (68%)
+     SF_tp1 :    +0.998   -0.127/+0.077 (68%)
+ Warning - No valid high-error found, will report difference to maximum of range for : SF_other
+   SF_other :    +1.639   -0.660/+0.361 (68%)
+Done in 0.03 min (cpu), 0.03 min (real)
+>> combine -M MultiDimFit -n _initialFit_Test --algo singles --redefineSignalPOIs SF_tp2,SF_tp3,SF_tp1,SF_other --robustFit 1 -m 125 -d particlenetmd_sf/fitdir/datacard_particlenetmd_tt1l_w_0.90to1.00_2018_pt200to800.root
+Have POIs: ['SF_tp2', 'SF_tp3', 'SF_tp1', 'SF_other']
+Have parameters: 20
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+ <<< Combine >>> 
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+ <<< Combine >>> 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+ <<< Combine >>> 
+>>> random number generator seed is 123456
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [tp1jmr] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+Error: closed range without finding crossing.
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+SimNLL created with 2 channels, 9 generic constraints, 78 fast gaussian constraints, 0 fast poisson constraints, 0 fast group constraints, 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  [WARNING] Found [other_xsec] at boundary. 
+  [WARNING] Found [otherjmr] at boundary. 
+Error: closed range without finding crossing.
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  pu        :   -0.067  -1.149/+0.911  -0.001/-0.002  +0.004/-0.009  -0.008/+0.003  +0.080/-0.030
+Done in 0.01 min (cpu), 0.01 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+Error: closed range without finding crossing.
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter   :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  lhescalemuf :   -1.082  -1.607/+1.050  -0.003/-0.002  +0.013/-0.013  -0.010/-0.001  +0.050/-0.004
+Done in 0.01 min (cpu), 0.01 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  otherjmr  :   -0.991  +0.000/+0.000  -0.000/-0.000  +0.000/+0.000  -0.000/-0.000  +0.000/+0.000
+Done in 0.01 min (cpu), 0.01 min (real)
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  jer       :   +0.320  -1.983/+1.889  -0.005/-0.006  -0.011/-0.003  -0.013/-0.008  +0.104/+0.171
+Done in 0.01 min (cpu), 0.01 min (real)
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  tp2jmr    :   +0.135  -0.116/+0.130  -0.002/-0.003  -0.008/+0.005  +0.003/-0.026  +0.134/-0.059
+Done in 0.01 min (cpu), 0.02 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  tp1jms    :   -0.259  -0.170/+0.139  -0.001/-0.004  -0.004/+0.001  -0.012/+0.002  +0.103/-0.044
+Done in 0.01 min (cpu), 0.02 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  tp2jms    :   -0.007  -0.038/+0.065  -0.002/-0.006  -0.008/+0.002  +0.007/-0.027  -0.033/+0.163
+Done in 0.01 min (cpu), 0.01 min (real)
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  tp2_xsec  :   -1.210  -1.019/+1.927  +0.002/-0.012  -0.019/+0.022  -0.016/-0.008  +0.099/+0.071
+Done in 0.01 min (cpu), 0.02 min (real)
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  norm_top  :   +0.835  -0.099/+0.077  -0.006/-0.003  -0.008/+0.001  -0.015/-0.012  +0.036/+0.176
+Done in 0.01 min (cpu), 0.02 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  otherjms  :   +0.619  -0.217/+0.350  -0.000/-0.002  +0.002/-0.006  +0.005/-0.003  -0.036/+0.017
+Done in 0.01 min (cpu), 0.02 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+Error: closed range without finding crossing.
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  lumi      :   +0.289  -1.243/+2.252  -0.001/-0.004  -0.003/-0.006  -0.005/-0.009  +0.062/+0.010
+Done in 0.02 min (cpu), 0.02 min (real)
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  tp3jmr    :   -0.507  +0.000/+0.667  -0.000/-0.001  +0.000/-0.027  -0.000/-0.026  +0.000/+0.029
+Done in 0.02 min (cpu), 0.02 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  tp3_xsec  :   +0.053  -1.816/+1.582  -0.010/+0.001  +0.012/-0.021  -0.005/-0.011  +0.009/+0.042
+Done in 0.01 min (cpu), 0.02 min (real)
+Error: closed range without finding crossing.
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  tp1jmr    :   -0.095  +0.000/+0.688  -0.000/-0.014  +0.000/+0.000  -0.000/-0.009  +0.000/+0.003
+Done in 0.01 min (cpu), 0.02 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  tp1_xsec  :   +1.154  -1.697/+1.514  -0.004/-0.001  +0.006/-0.009  +0.010/-0.015  -0.072/+0.115
+Done in 0.02 min (cpu), 0.03 min (real)
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  jes       :   +0.992  -0.507/+1.518  -0.001/-0.002  +0.009/-0.023  +0.005/-0.013  +0.022/+0.003
+Done in 0.02 min (cpu), 0.02 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  met       :   +0.052  -0.986/+1.800  -0.002/-0.006  -0.004/-0.002  -0.001/-0.023  +0.019/+0.238
+Done in 0.03 min (cpu), 0.03 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter   :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  lhescalemur :   -0.838  -1.243/+0.622  +0.000/+0.000  +0.020/-0.013  +0.038/-0.018  -0.102/+0.030
+Done in 0.03 min (cpu), 0.03 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter  :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  other_xsec :   +1.000  -0.216/+0.000  +0.004/-0.000  +0.005/+0.000  +0.005/-0.000  +0.094/+0.000
+Done in 0.03 min (cpu), 0.03 min (real)
+
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               SF_tp2         SF_tp3         SF_tp1         SF_other     
+  tp3jms    :   -0.204  -0.111/+0.159  -0.001/-0.002  +0.008/-0.018  -0.014/+0.003  +0.118/-0.030
+Done in 0.09 min (cpu), 0.10 min (real)
+Have POIs: ['SF_tp2', 'SF_tp3', 'SF_tp1', 'SF_other']
+Have parameters: 20
+>> Doing page 0, have 20 parameters
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+[#0] ERROR:InputArguments -- RooFitResult::correlation() parameter r is not a floating fit parameter
+diffNuisances run on particlenetmd_sf/fitdir/fitdiagnostics_particlenetmd_tt1l_w_0.90to1.00_2018_pt200to800.root, at 2025-02-19 18:32:48.765553 with the following options ... {'absolute_values': True, 'show_all_parameters': False, 'format': 'text', 'stol2': 0.5, 'pullDef': '', 'vtol': 0.3, 'stol': 0.1, 'plotfile': 'plots.root', 'vtol2': 2.0, 'poi': 'r'}
+
+name                                                 pre fit                        b-only fit                           s+b fit         rho
+jer                                          0.000000 +/- 0.000000    !-3.13 +/- 0.64 (-0.00sig, 0.00)!    !+0.34 +/- 1.40 (+0.00sig, 0.00)!       +0.00
+jes                                          0.000000 +/- 0.000000    !+3.10 +/- 0.31 (+0.00sig, 0.00)!    !+0.99 +/- 0.49 (+0.00sig, 0.00)!       +0.00
+lhescalemuf                                  0.000000 +/- 0.000000    !-6.56 +/- 0.71 (-0.00sig, 0.00)!    !-1.09 +/- 0.83 (-0.00sig, 0.00)!       +0.00
+lhescalemur                                  0.000000 +/- 0.000000    !-10.17 +/- 0.30 (-0.00sig, 0.00)!    !-0.82 +/- 0.69 (-0.00sig, 0.00)!       +0.00
+lumi                                         0.000000 +/- 0.000000    !+10.52 +/- 0.37 (+0.00sig, 0.00)!    !+0.29 +/- 1.01 (+0.00sig, 0.00)!       +0.00
+met                                          0.000000 +/- 0.000000    !-0.01 +/- 0.20 (-0.00sig, 0.00)!    !+0.05 +/- 0.76 (+0.00sig, 0.00)!       +0.00
+other_xsec                                   0.000000 +/- 0.000000    !+1.00 +/- 0.00 (+1.00sig, 0.00)!    !+1.00 +/- 0.06 (+1.00sig, 0.06)!       +0.00
+otherjmr                                     0.000000 +/- 0.000000    !+0.60 +/- 0.10 (+0.60sig, 0.10)!    !-0.99 +/- 1.99 (-0.99sig, 1.99)!       +0.00
+otherjms                                     0.000000 +/- 0.000000    !+0.62 +/- 0.07 (+0.62sig, 0.07)!    !+0.62 +/- 0.21 (+0.62sig, 0.21)!       +0.00
+prop_binfail_bin0                            0.000000 +/- 0.000000    !-4.14 +/- 0.93 (-0.00sig, 0.00)!    !+0.09 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin1                            0.000000 +/- 0.000000    !-0.09 +/- 1.15 (-0.00sig, 0.00)!    !+0.28 +/- 0.95 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin10                           0.000000 +/- 0.000000    !-0.59 +/- 1.11 (-0.00sig, 0.00)!    !-0.02 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin11                           0.000000 +/- 0.000000    !+1.64 +/- 1.04 (+0.00sig, 0.00)!    !+0.53 +/- 0.98 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin12                           0.000000 +/- 0.000000    !+0.66 +/- 1.05 (+0.00sig, 0.00)!    !-0.25 +/- 0.96 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin13                           0.000000 +/- 0.000000    !+1.28 +/- 1.04 (+0.00sig, 0.00)!    !+0.11 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin14                           0.000000 +/- 0.000000    !+0.82 +/- 0.84 (+0.00sig, 0.00)!    !+0.43 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin15                           0.000000 +/- 0.000000    !+2.57 +/- 1.30 (+0.00sig, 0.00)!    !-0.09 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin16                           0.000000 +/- 0.000000    !+2.68 +/- 1.02 (+0.00sig, 0.00)!    !-0.28 +/- 0.95 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin17                           0.000000 +/- 0.000000    !+1.00 +/- 0.92 (+0.00sig, 0.00)!    !-0.09 +/- 0.96 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin18                           0.000000 +/- 0.000000    !+1.01 +/- 0.96 (+0.00sig, 0.00)!    !-0.39 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin19                           0.000000 +/- 0.000000    !+0.08 +/- 1.10 (+0.00sig, 0.00)!    !+0.31 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin2                            0.000000 +/- 0.000000    !-0.78 +/- 1.02 (-0.00sig, 0.00)!    !+0.77 +/- 0.91 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin20                           0.000000 +/- 0.000000    !-0.71 +/- 1.12 (-0.00sig, 0.00)!    !-0.32 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin21                           0.000000 +/- 0.000000    !-1.05 +/- 1.00 (-0.00sig, 0.00)!    !-0.11 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin22                           0.000000 +/- 0.000000    !-0.93 +/- 1.05 (-0.00sig, 0.00)!    !-0.04 +/- 0.98 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin23                           0.000000 +/- 0.000000    !+0.75 +/- 1.02 (+0.00sig, 0.00)!    !+0.34 +/- 0.97 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin24                           0.000000 +/- 0.000000    !+1.58 +/- 1.05 (+0.00sig, 0.00)!    !-0.09 +/- 0.98 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin25                           0.000000 +/- 0.000000    !+0.53 +/- 1.43 (+0.00sig, 0.00)!    !+0.05 +/- 0.98 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin26                           0.000000 +/- 0.000000    !+2.73 +/- 0.86 (+0.00sig, 0.00)!    !+0.44 +/- 0.97 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin27                           0.000000 +/- 0.000000    !-0.11 +/- 0.90 (-0.00sig, 0.00)!    !-0.36 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin28                           0.000000 +/- 0.000000    !-0.07 +/- 1.07 (-0.00sig, 0.00)!    !-0.27 +/- 0.98 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin29                           0.000000 +/- 0.000000    !-0.88 +/- 1.24 (-0.00sig, 0.00)!    !+0.40 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin3                            0.000000 +/- 0.000000    !-1.45 +/- 1.04 (-0.00sig, 0.00)!    !+0.19 +/- 0.94 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin30                           0.000000 +/- 0.000000    !-2.84 +/- 1.13 (-0.00sig, 0.00)!    !-0.32 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin31                           0.000000 +/- 0.000000    !-3.26 +/- 0.91 (-0.00sig, 0.00)!    !+0.19 +/- 0.95 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin32                           0.000000 +/- 0.000000    !-3.33 +/- 0.95 (-0.00sig, 0.00)!    !-0.34 +/- 0.99 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin33                           0.000000 +/- 0.000000    !-3.50 +/- 1.21 (-0.00sig, 0.00)!    !-0.09 +/- 0.96 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin4                            0.000000 +/- 0.000000    !-3.41 +/- 1.16 (-0.00sig, 0.00)!    !-1.17 +/- 0.93 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin5                            0.000000 +/- 0.000000    !-0.59 +/- 1.01 (-0.00sig, 0.00)!    !+0.12 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin6                            0.000000 +/- 0.000000    !+1.37 +/- 0.88 (+0.00sig, 0.00)!    !+0.00 +/- 0.95 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin7                            0.000000 +/- 0.000000    !+1.13 +/- 0.86 (+0.00sig, 0.00)!    !+0.07 +/- 0.98 (+0.00sig, 0.00)!       +0.00
+prop_binfail_bin8                            0.000000 +/- 0.000000    !-0.36 +/- 1.03 (-0.00sig, 0.00)!    !-0.30 +/- 0.96 (-0.00sig, 0.00)!       +0.00
+prop_binfail_bin9                            0.000000 +/- 0.000000    !-0.96 +/- 0.85 (-0.00sig, 0.00)!    !+0.10 +/- 0.98 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin0                            0.000000 +/- 0.000000    !-2.50 +/- 0.57 (-0.00sig, 0.00)!    !+0.00 +/- 0.94 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin1                            0.000000 +/- 0.000000    !-1.46 +/- 0.64 (-0.00sig, 0.00)!    !+0.29 +/- 0.88 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin10                           0.000000 +/- 0.000000    !+1.93 +/- 0.56 (+0.00sig, 0.00)!    !+0.20 +/- 0.95 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin11                           0.000000 +/- 0.000000    !-5.37 +/- 0.65 (-0.00sig, 0.00)!    !-0.42 +/- 0.94 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin12                           0.000000 +/- 0.000000    !-4.55 +/- 0.58 (-0.00sig, 0.00)!    !-0.62 +/- 0.95 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin13                           0.000000 +/- 0.000000    !-2.58 +/- 0.60 (-0.00sig, 0.00)!    !-0.16 +/- 0.95 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin14                           0.000000 +/- 0.000000    !-2.89 +/- 0.61 (-0.00sig, 0.00)!    !+0.51 +/- 0.95 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin15                           0.000000 +/- 0.000000    !-4.15 +/- 0.67 (-0.00sig, 0.00)!    !+0.13 +/- 0.94 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin16                           0.000000 +/- 0.000000    !-1.80 +/- 0.70 (-0.00sig, 0.00)!    !-0.23 +/- 0.96 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin17                           0.000000 +/- 0.000000    !-1.37 +/- 0.66 (-0.00sig, 0.00)!    !+0.40 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin18                           0.000000 +/- 0.000000    !+1.74 +/- 0.77 (+0.00sig, 0.00)!    !+0.28 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin19                           0.000000 +/- 0.000000    !-0.64 +/- 0.81 (-0.00sig, 0.00)!    !+0.08 +/- 0.97 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin2                            0.000000 +/- 0.000000    !-4.56 +/- 0.35 (-0.00sig, 0.00)!    !-0.51 +/- 0.91 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin20                           0.000000 +/- 0.000000    !-0.42 +/- 0.68 (-0.00sig, 0.00)!    !+0.24 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin21                           0.000000 +/- 0.000000    !-0.03 +/- 0.79 (-0.00sig, 0.00)!    !-0.31 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin22                           0.000000 +/- 0.000000    !+0.28 +/- 0.81 (+0.00sig, 0.00)!    !-0.33 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin23                           0.000000 +/- 0.000000    !-0.81 +/- 0.81 (-0.00sig, 0.00)!    !+0.18 +/- 0.97 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin24                           0.000000 +/- 0.000000    !+1.49 +/- 0.79 (+0.00sig, 0.00)!    !+0.14 +/- 0.97 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin25                           0.000000 +/- 0.000000    !-0.45 +/- 0.74 (-0.00sig, 0.00)!    !-0.15 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin26                           0.000000 +/- 0.000000    !+2.21 +/- 0.79 (+0.00sig, 0.00)!    !+0.04 +/- 0.97 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin27                           0.000000 +/- 0.000000    !-1.77 +/- 0.83 (-0.00sig, 0.00)!    !-0.21 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin28                           0.000000 +/- 0.000000    !+0.98 +/- 0.86 (+0.00sig, 0.00)!    !+0.12 +/- 0.97 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin29                           0.000000 +/- 0.000000    !+0.41 +/- 0.49 (+0.00sig, 0.00)!    !-0.02 +/- 0.93 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin3                            0.000000 +/- 0.000000    !-2.19 +/- 0.38 (-0.00sig, 0.00)!    !-0.24 +/- 0.92 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin30                           0.000000 +/- 0.000000    !-1.24 +/- 0.87 (-0.00sig, 0.00)!    !-0.02 +/- 0.97 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin31                           0.000000 +/- 0.000000    !-1.04 +/- 0.89 (-0.00sig, 0.00)!    !+0.23 +/- 0.97 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin32                           0.000000 +/- 0.000000    !-0.01 +/- 0.48 (-0.00sig, 0.00)!    !+0.26 +/- 0.91 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin33                           0.000000 +/- 0.000000    !-2.44 +/- 0.71 (-0.00sig, 0.00)!    !+0.76 +/- 0.84 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin4                            0.000000 +/- 0.000000    !-1.32 +/- 0.77 (-0.00sig, 0.00)!    !+0.24 +/- 0.93 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin5                            0.000000 +/- 0.000000    !+3.57 +/- 0.55 (+0.00sig, 0.00)!    !+0.32 +/- 0.95 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin6                            0.000000 +/- 0.000000    !+10.17 +/- 0.52 (+0.00sig, 0.00)!    !+0.05 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+prop_binpass_bin7                            0.000000 +/- 0.000000    !+10.46 +/- 0.72 (+0.00sig, 0.00)!    !-0.25 +/- 0.96 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin8                            0.000000 +/- 0.000000    !+12.54 +/- 0.58 (+0.00sig, 0.00)!    !-0.05 +/- 0.96 (-0.00sig, 0.00)!       +0.00
+prop_binpass_bin9                            0.000000 +/- 0.000000    !+3.50 +/- 0.68 (+0.00sig, 0.00)!    !+0.07 +/- 0.96 (+0.00sig, 0.00)!       +0.00
+pu                                           0.000000 +/- 0.000000    !+5.35 +/- 0.70 (+0.00sig, 0.00)!    !-0.07 +/- 0.96 (-0.00sig, 0.00)!       +0.00
+tp1_xsec                                     0.000000 +/- 0.000000    !-6.73 +/- 0.37 (-0.00sig, 0.00)!    !+1.14 +/- 0.46 (+0.00sig, 0.00)!       +0.00
+tp1jmr                                       0.000000 +/- 0.000000    !-0.31 +/- 0.30 (-0.31sig, 0.30)!    -0.13 +/- 0.77 (-0.13sig, 0.77)       +0.00
+tp1jms                                       0.000000 +/- 0.000000    !+0.14 +/- 0.15 (+0.14sig, 0.15)!    !-0.26 +/- 0.13 (-0.26sig, 0.13)!       +0.00
+tp2_xsec                                     0.000000 +/- 0.000000    !+3.26 +/- 0.78 (+0.00sig, 0.00)!    !-1.22 +/- 0.66 (-0.00sig, 0.00)!       +0.00
+tp2jmr                                       0.000000 +/- 0.000000    !-0.30 +/- 0.21 (-0.30sig, 0.21)!    !+0.13 +/- 0.07 (+0.13sig, 0.07)!       +0.00
+tp2jms                                       0.000000 +/- 0.000000    !+0.25 +/- 0.04 (+0.25sig, 0.04)!    !-0.01 +/- 0.04 (-0.01sig, 0.04)!       +0.00
+tp3_xsec                                     0.000000 +/- 0.000000    !+3.47 +/- 0.82 (+0.00sig, 0.00)!    !+0.07 +/- 0.79 (+0.00sig, 0.00)!       +0.00
+tp3jmr                                       0.000000 +/- 0.000000    !-0.30 +/- 0.13 (-0.30sig, 0.13)!    !-0.51 +/- 0.46 (-0.51sig, 0.46)!       +0.00
+tp3jms                                       0.000000 +/- 0.000000    !-0.59 +/- 0.12 (-0.59sig, 0.12)!    !-0.20 +/- 0.06 (-0.20sig, 0.06)!       +0.00
+
+Processing HeavyFlavourZCandleStudies.C("2018","tt1l","w","0.90","1.00",true,"pass","jmcor")...
+postfit: tt1l w 0.90to1.00 pass
+ In makeDataMCPlotFromCombine
+ Opening fitdiagnostics: ./particlenetmd_sf/fitdir/fitdiagnostics_particlenetmd_tt1l_w_0.90to1.00_2018_pt200to800.root
+ sample = tt1l , category = w
+shapes_prefit/pass/tp3
+shapes_prefit/pass/tp2
+shapes_prefit/pass/tp1
+shapes_prefit/pass/other
+shapes_prefit/pass/total
+ i m here 12-d
+ i m here 12-e
+
+Processing HeavyFlavourZCandleStudies.C("2018","tt1l","w","0.90","1.00",true,"fail","jmcor")...
+postfit: tt1l w 0.90to1.00 fail
+ In makeDataMCPlotFromCombine
+ Opening fitdiagnostics: ./particlenetmd_sf/fitdir/fitdiagnostics_particlenetmd_tt1l_w_0.90to1.00_2018_pt200to800.root
+ sample = tt1l , category = w
+shapes_prefit/fail/tp3
+shapes_prefit/fail/tp2
+shapes_prefit/fail/tp1
+shapes_prefit/fail/other
+shapes_prefit/fail/total
+ i m here 12-d
+ i m here 12-e

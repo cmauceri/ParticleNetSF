@@ -1,3 +1,4 @@
+
 #ifndef CONFIGURATION_INCLUDE
 #define CONFIGURATION_INCLUDE
 
@@ -48,16 +49,20 @@ namespace conf {
    
     if (sample == "tt1l") 
       {
-	path_2016 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run2/2015/";
+	//path_2016 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run2/2015/";
 	//path_2016 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run2/2016/";
-	path_2017 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run2/2017/";
-	path_2018 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run2/2018/";
+	//	path_2017 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run2/2017/";
+	path_2016 = "/eos/user/b/bribeiro/HadronicVH/20250124_ULNanoV9_MassRegression_ak15_muon_2016/";
+	path_2017 = "/eos/user/b/bribeiro/HadronicVH/20250124_ULNanoV9_MassRegression_ak15_muon_2017/";
+	path_2018 = "/eos/user/b/bribeiro/HadronicVH/20250124_ULNanoV9_MassRegression_ak15_muon_2018/";
 	path_2022 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run3/2022/";
 	
-	jetCone    = "ak8";
+	// changing ak8->ak15
+	jetCone    = "ak15";
 	jet_prefix = "fj_1_";
       
-	brX = jet_prefix+"sdmass"; 
+	//brX = jet_prefix+"sdmass"; 
+	brX = jet_prefix+"regressed_mass";
 	brY = jet_prefix+"pt";
 	//category = "top"; //Top-Tagger
 	category = "w"; //W-Tagger
@@ -70,29 +75,28 @@ namespace conf {
 	// for make2DTemplates
 	processes.push_back("ttbar-powheg"); process_names.push_back("tt"); 
 	processes.push_back("singletop");    process_names.push_back("st");
-	processes.push_back("ttv");          process_names.push_back("ttv");
+	//	processes.push_back("ttv");          process_names.push_back("ttv");
 	processes.push_back("w");            process_names.push_back("wll");
 	processes.push_back("diboson");      process_names.push_back("vv");
 	//processes.push_back("qcd-mg");       process_names.push_back("qcd");
 	
 	// keep this format - pretify later - need to keep this order
-	processes_in.push_back("tt_p3"); processes_in.push_back("st_p3"); processes_in.push_back("ttv_p3");
-	processes_in.push_back("tt_p2"); processes_in.push_back("st_p2"); processes_in.push_back("ttv_p2"); 
-	processes_in.push_back("tt_p1"); processes_in.push_back("st_p1"); processes_in.push_back("ttv_p1");
+	processes_in.push_back("tt_p3"); processes_in.push_back("st_p3"); //processes_in.push_back("ttv_p3");
+	processes_in.push_back("tt_p2"); processes_in.push_back("st_p2"); //processes_in.push_back("ttv_p2"); 
+	processes_in.push_back("tt_p1"); processes_in.push_back("st_p1"); //processes_in.push_back("ttv_p1");
 	processes_in.push_back("wll");   processes_in.push_back("vv");    //processes_in.push_back("qcd"); 
 	
 	// list of systematic uncertainties
-	syst.push_back("_");
-
+	syst.push_back("_");	
 	syst.push_back("pu"); 
 	syst.push_back("jes"); 
 	syst.push_back("jer");
 	syst.push_back("met"); 
 	syst.push_back("jms");
 	syst.push_back("jmr");
-	syst.push_back("lhescalemuf"); 
-	syst.push_back("lhescalemur"); 
-
+	//syst.push_back("lhescalemuf"); 
+	//	syst.push_back("lhescalemur"); 
+	
 	//syst.push_back("lhepdf");
       }
     
@@ -101,7 +105,7 @@ namespace conf {
     algo      = "particlenetmd";  //MD
     //score_def = jet_prefix+"ParticleNet_TvsQCD"; 
     //score_def = jet_prefix+"ParticleNet_WvsQCD"; //W-Nominal
-    score_def = "(fj_1_ParticleNetMD_Xcc+fj_1_ParticleNetMD_Xqq)/(fj_1_ParticleNetMD_Xcc+fj_1_ParticleNetMD_Xqq+fj_1_ParticleNetMD_QCD)"; //W-MD
+    score_def = "(fj_1_ParticleNetMD_Xcc)/(fj_1_ParticleNetMD_Xcc+fj_1_ParticleNetMD_QCD)"; //W-MD
     binsX = 34; minX = 50;  maxX = 220.;
     //binsY = 40; minY = 200; maxY = 1200.; //Top-Tagger
     binsY = 40; minY = 200; maxY = 800.; //W-Tagger
