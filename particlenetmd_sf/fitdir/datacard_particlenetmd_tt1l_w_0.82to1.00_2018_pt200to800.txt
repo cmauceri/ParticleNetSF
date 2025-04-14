@@ -6,7 +6,7 @@ shapes  *  pass  particlenetmd_sf/particlenetmd_tt1l_w_0.82to1.00_2018_pt200to80
 shapes  *  fail  particlenetmd_sf/particlenetmd_tt1l_w_0.82to1.00_2018_pt200to800_templates_f.root  $PROCESS $PROCESS_$SYSTEMATIC
 ------------
 bin             pass fail    
-observation      17597 109102
+observation      16288 141417
 ------------
 # now we list the expected events for signal and all backgrounds in that bin
 # the second 'process' line must have a positive number for backgrounds, and 0 for signal

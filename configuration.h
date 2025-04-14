@@ -34,6 +34,7 @@ namespace conf {
   std::vector<TString> syst;
   std::vector<TString> processes_in;
 
+
   TString path_2016;
   TString path_2017;
   TString path_2018;
@@ -52,10 +53,11 @@ namespace conf {
 	//path_2016 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run2/2015/";
 	//path_2016 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run2/2016/";
 	//	path_2017 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run2/2017/";
-	path_2016 = "/eos/user/b/bribeiro/HadronicVH/20250124_ULNanoV9_MassRegression_ak15_muon_2016/";
-	path_2017 = "/eos/user/b/bribeiro/HadronicVH/20250124_ULNanoV9_MassRegression_ak15_muon_2017/";
-	path_2018 = "/eos/user/b/bribeiro/HadronicVH/20250124_ULNanoV9_MassRegression_ak15_muon_2018/";
-	path_2022 = "/eos/cms/store/group/phys_jetmet/lpaizano/Run3/2022/";
+	//path_2016 = "/eos/user/b/bribeiro/HadronicVH/20250321_ULNanoV9_MassRegression_ak15_muon_2015/";
+	path_2016 = "/eos/user/b/bribeiro/HadronicVH/20250321_ULNanoV9_MassRegression_ak15_muon_2016/";
+	path_2017 = "/eos/user/b/bribeiro/HadronicVH/20250321_ULNanoV9_MassRegression_ak15_muon_2017/";
+	path_2018 = "/eos/user/b/bribeiro/HadronicVH/20250321_ULNanoV9_MassRegression_ak15_muon_2018/";
+	path_2022 = "/eos/user/b/bribeiro/HadronicVH/20250321_ULNanoV9_MassRegression_ak15_muon_2022/";
 	
 	// changing ak8->ak15
 	jetCone    = "ak15";
@@ -87,15 +89,16 @@ namespace conf {
 	processes_in.push_back("wll");   processes_in.push_back("vv");    //processes_in.push_back("qcd"); 
 	
 	// list of systematic uncertainties
-	syst.push_back("_");	
-	syst.push_back("pu"); 
-	syst.push_back("jes"); 
-	syst.push_back("jer");
-	syst.push_back("met"); 
-	syst.push_back("jms");
-	syst.push_back("jmr");
+	//	syst.push_back("_");	
+	//syst.push_back("pu"); 
+	//syst.push_back("jes"); 
+	//syst.push_back("jer");
+	
+	//syst.push_back("met"); 
+	//syst.push_back("jms");
+	//syst.push_back("jmr");
 	//syst.push_back("lhescalemuf"); 
-	//	syst.push_back("lhescalemur"); 
+	//syst.push_back("lhescalemur"); 
 	
 	//syst.push_back("lhepdf");
       }
@@ -105,7 +108,8 @@ namespace conf {
     algo      = "particlenetmd";  //MD
     //score_def = jet_prefix+"ParticleNet_TvsQCD"; 
     //score_def = jet_prefix+"ParticleNet_WvsQCD"; //W-Nominal
-    score_def = "(fj_1_ParticleNetMD_Xcc)/(fj_1_ParticleNetMD_Xcc+fj_1_ParticleNetMD_QCD)"; //W-MD
+    //    score_def = "(fj_1_ParticleNetMD_Xcc)/(fj_1_ParticleNetMD_Xcc+fj_1_ParticleNetMD_QCD)"; //W-MD
+    score_def = "fj_1_ParticleNetMD_XccVsQCD"; //W-MD
     binsX = 34; minX = 50;  maxX = 220.;
     //binsY = 40; minY = 200; maxY = 1200.; //Top-Tagger
     binsY = 40; minY = 200; maxY = 800.; //W-Tagger
@@ -118,10 +122,10 @@ namespace conf {
     //name.push_back("200to1200"); ptmin.push_back(200.); ptmax.push_back(1200.);
     
     //W
-    //name.push_back("pt200to300"); ptmin.push_back(200.); ptmax.push_back(300.);
-    //name.push_back("pt300to400"); ptmin.push_back(300.); ptmax.push_back(400.);  
-    //name.push_back("pt400to800"); ptmin.push_back(400.); ptmax.push_back(800.);
-    name.push_back("pt200to800"); ptmin.push_back(200.); ptmax.push_back(800.);
+    name.push_back("pt200to300"); ptmin.push_back(200.); ptmax.push_back(300.);
+    name.push_back("pt300to400"); ptmin.push_back(300.); ptmax.push_back(400.);  
+    name.push_back("pt400to800"); ptmin.push_back(400.); ptmax.push_back(800.);
+    //name.push_back("pt200to800"); ptmin.push_back(200.); ptmax.push_back(800.);
     
     // =================== end of area to modify - tune ===================== //
 

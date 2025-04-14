@@ -1,0 +1,123 @@
+2015 0.637to1.00 cc ak15
+tp3jms:
+ SF: 0.7470540106296539
+ Down Uncertainty: -0.14884987473487854
+ Up Uncertainty: 0.1700277179479599
+
+tp3jmr:
+ SF: 0.6732978820800781
+ Down Uncertainty: 0.0
+ Up Uncertainty: 0.3905594199895859
+
+tp2jms:
+ SF: 0.8116541057825089
+ Down Uncertainty: -0.09811235964298248
+ Up Uncertainty: 0.09524234384298325
+
+tp2jmr:
+ SF: 1.5008994936943054
+ Down Uncertainty: -0.1273282766342163
+ Up Uncertainty: 0.11648774147033691
+
+tp1jms:
+ SF: 1.1920644044876099
+ Down Uncertainty: -0.1459798514842987
+ Up Uncertainty: 0.13966193795204163
+
+tp1jmr:
+ SF: 1.5501582622528076
+ Down Uncertainty: -0.19270065426826477
+ Up Uncertainty: 0.17931437492370605
+
+otherjms:
+ SF: 0.0
+ Down Uncertainty: 0.0
+ Up Uncertainty: 0.34860217571258545
+
+otherjmr:
+ SF: 0.873487189412117
+ Down Uncertainty: -0.5019123703241348
+ Up Uncertainty: 0.441206619143486
+
+2015 0.845to1.00 cc ak15
+tp3jms:
+ SF: 0.7344400882720947
+ Down Uncertainty: -0.1379874050617218
+ Up Uncertainty: 0.1517123281955719
+
+tp3jmr:
+ SF: 0.6671241521835327
+ Down Uncertainty: 0.0
+ Up Uncertainty: 0.3223802810534835
+
+tp2jms:
+ SF: 0.8210272043943405
+ Down Uncertainty: -0.09916047751903534
+ Up Uncertainty: 0.09726189821958542
+
+tp2jmr:
+ SF: 1.4181374907493591
+ Down Uncertainty: -0.1327497363090515
+ Up Uncertainty: 0.11684060096740723
+
+tp1jms:
+ SF: 1.348312795162201
+ Down Uncertainty: -0.14453834295272827
+ Up Uncertainty: 0.13921260833740234
+
+tp1jmr:
+ SF: 1.8577271699905396
+ Down Uncertainty: -0.18799453973770142
+ Up Uncertainty: 0.0
+
+otherjms:
+ SF: 0.38152629137039185
+ Down Uncertainty: 0.0
+ Up Uncertainty: 0.9902913272380829
+
+otherjmr:
+ SF: 0.6931886076927185
+ Down Uncertainty: 0.0
+ Up Uncertainty: 0.6103628277778625
+
+2015 0.910to1.00 cc ak15
+tp3jms:
+ SF: 0.8184999227523804
+ Down Uncertainty: -0.14689046144485474
+ Up Uncertainty: 0.16117744706571102
+
+tp3jmr:
+ SF: 0.7537110149860382
+ Down Uncertainty: -0.40569356083869934
+ Up Uncertainty: 0.2972709499299526
+
+tp2jms:
+ SF: 0.8393582254648209
+ Down Uncertainty: -0.09625904262065887
+ Up Uncertainty: 0.09380090236663818
+
+tp2jmr:
+ SF: 1.461619108915329
+ Down Uncertainty: -0.12498414516448975
+ Up Uncertainty: 0.11360898613929749
+
+tp1jms:
+ SF: 1.2838784158229828
+ Down Uncertainty: -0.15015102922916412
+ Up Uncertainty: 0.14291933178901672
+
+tp1jmr:
+ SF: 1.7875098586082458
+ Down Uncertainty: -0.1895957589149475
+ Up Uncertainty: 0.20373767614364624
+
+otherjms:
+ SF: 0.12888765335083008
+ Down Uncertainty: 0.0
+ Up Uncertainty: 0.7045605331659317
+
+otherjmr:
+ SF: 0.7486710548400879
+ Down Uncertainty: 0.0
+ Up Uncertainty: 0.6721703112125397
+

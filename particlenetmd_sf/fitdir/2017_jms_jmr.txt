@@ -1,0 +1,303 @@
+2017 0.579to1.00 cc ak15
+tp3jms:
+ Central Value: -0.11766798794269562
+ Lower Bound: -0.2551872730255127
+ Upper Bound: 0.0634007379412651
+
+tp3jms Change from nominal
+ Central Value: -1.1675512343645096
+ Lower Bound: -1.2114685773849487
+ Upper Bound: -1.0437206104397774
+
+tp3jmr:
+ Central Value: 0.18990355730056763
+ Lower Bound: 0.18990355730056763
+ Upper Bound: 0.43052616715431213
+
+tp3jmr Change from nominal
+ Central Value: -0.8599796891212463
+ Lower Bound: -0.7663777470588684
+ Upper Bound: -0.6765951812267303
+
+Nominal Value: SF_tp3
+ Central Value: 1.049883246421814
+ Lower Bound: 0.956281304359436
+ Upper Bound: 1.1071213483810425
+
+tp2jms:
+ Central Value: 0.3138023316860199
+ Lower Bound: 0.2570265233516693
+ Upper Bound: 0.41369354724884033
+
+tp2jms Change from nominal
+ Central Value: -0.5869114100933075
+ Lower Bound: -0.6046778857707977
+ Upper Bound: -0.5284752249717712
+
+tp2jmr:
+ Central Value: -0.3026084005832672
+ Lower Bound: -0.4773150682449341
+ Upper Bound: -0.07611759752035141
+
+tp2jmr Change from nominal
+ Central Value: -1.2033221423625946
+ Lower Bound: -1.3390194773674011
+ Upper Bound: -1.018286369740963
+
+Nominal Value: SF_tp2
+ Central Value: 0.9007137417793274
+ Lower Bound: 0.861704409122467
+ Upper Bound: 0.9421687722206116
+
+tp1jms:
+ Central Value: -0.3535367548465729
+ Lower Bound: -0.4814818501472473
+ Upper Bound: -0.22233454883098602
+
+tp1jms Change from nominal
+ Central Value: -1.3646105825901031
+ Lower Bound: -1.4536121487617493
+ Upper Bound: -1.2705189436674118
+
+tp1jmr:
+ Central Value: -0.29680493474006653
+ Lower Bound: -0.29680493474006653
+ Upper Bound: 0.36216235160827637
+
+tp1jmr Change from nominal
+ Central Value: -1.3078787624835968
+ Lower Bound: -1.2689352333545685
+ Upper Bound: -0.6860220432281494
+
+Nominal Value: SF_tp1
+ Central Value: 1.0110738277435303
+ Lower Bound: 0.972130298614502
+ Upper Bound: 1.0481843948364258
+
+otherjms:
+ Central Value: -1.0
+ Lower Bound: -1.0
+ Upper Bound: -0.6516504287719727
+
+otherjms Change from nominal
+ Central Value: -1.000000000171863
+ Lower Bound: -1.0
+ Upper Bound: -0.8575384318828583
+
+otherjmr:
+ Central Value: -0.9944155812263489
+ Lower Bound: -0.9944155812263489
+ Upper Bound: -0.9944155812263489
+
+otherjmr Change from nominal
+ Central Value: -0.9944155813982117
+ Lower Bound: -0.9944155812263489
+ Upper Bound: -1.2003035843372345
+
+Nominal Value: SF_other
+ Central Value: 1.7186285727888162e-10
+ Lower Bound: 0.0
+ Upper Bound: 0.20588800311088562
+
+2017 0.810to1.00 cc ak15
+tp3jms:
+ Central Value: -0.20213808119297028
+ Lower Bound: -0.34732580184936523
+ Upper Bound: -0.05539846047759056
+
+tp3jms Change from nominal
+ Central Value: -1.2518646866083145
+ Lower Bound: -1.317457377910614
+ Upper Bound: -1.1878771744668484
+
+tp3jmr:
+ Central Value: 0.15848153829574585
+ Lower Bound: -0.21573173999786377
+ Upper Bound: 0.3285365700721741
+
+tp3jmr Change from nominal
+ Central Value: -0.8912450671195984
+ Lower Bound: -1.1858633160591125
+ Upper Bound: -0.8039421439170837
+
+Nominal Value: SF_tp3
+ Central Value: 1.0497266054153442
+ Lower Bound: 0.9701315760612488
+ Upper Bound: 1.1324787139892578
+
+tp2jms:
+ Central Value: 0.3321705162525177
+ Lower Bound: 0.27314016222953796
+ Upper Bound: 0.39034974575042725
+
+tp2jms Change from nominal
+ Central Value: -0.5072166621685028
+ Lower Bound: -0.5374164283275604
+ Upper Bound: -0.4794848561286926
+
+tp2jmr:
+ Central Value: -0.30240398645401
+ Lower Bound: -0.5008850693702698
+ Upper Bound: -0.13997825980186462
+
+tp2jmr Change from nominal
+ Central Value: -1.1417911648750305
+ Lower Bound: -1.3114416599273682
+ Upper Bound: -1.0098128616809845
+
+Nominal Value: SF_tp2
+ Central Value: 0.8393871784210205
+ Lower Bound: 0.8105565905570984
+ Upper Bound: 0.8698346018791199
+
+tp1jms:
+ Central Value: -0.31910330057144165
+ Lower Bound: -0.45846879482269287
+ Upper Bound: -0.17903558909893036
+
+tp1jms Change from nominal
+ Central Value: -1.2650563716888428
+ Lower Bound: -1.3704384565353394
+ Upper Bound: -1.159313902258873
+
+tp1jmr:
+ Central Value: -0.29687780141830444
+ Lower Bound: -0.29687780141830444
+ Upper Bound: 0.1863788664340973
+
+tp1jmr Change from nominal
+ Central Value: -1.2428308725357056
+ Lower Bound: -1.208847463130951
+ Upper Bound: -0.7938994467258453
+
+Nominal Value: SF_tp1
+ Central Value: 0.9459530711174011
+ Lower Bound: 0.9119696617126465
+ Upper Bound: 0.9802783131599426
+
+otherjms:
+ Central Value: -0.9676435589790344
+ Lower Bound: -0.9676435589790344
+ Upper Bound: -0.2146732360124588
+
+otherjms Change from nominal
+ Central Value: -0.9676438096355469
+ Lower Bound: -0.9676435589790344
+ Upper Bound: -0.31864412873983383
+
+otherjmr:
+ Central Value: 0.9999998211860657
+ Lower Bound: 0.7199185490608215
+ Upper Bound: 0.9999998211860657
+
+otherjmr Change from nominal
+ Central Value: 0.9999995705295532
+ Lower Bound: 0.7199185490608215
+ Upper Bound: 0.8960289284586906
+
+Nominal Value: SF_other
+ Central Value: 2.506565124349436e-07
+ Lower Bound: 0.0
+ Upper Bound: 0.10397089272737503
+
+2017 0.891to1.00 cc ak15
+tp3jms:
+ Central Value: -0.11634907871484756
+ Lower Bound: -0.2626417279243469
+ Upper Bound: 0.026369357481598854
+
+tp3jms Change from nominal
+ Central Value: -1.1814319863915443
+ Lower Bound: -1.228293538093567
+ Upper Bound: -1.1400207038968801
+
+tp3jmr:
+ Central Value: 0.1933898627758026
+ Lower Bound: -0.0637359544634819
+ Upper Bound: 0.3497883379459381
+
+tp3jmr Change from nominal
+ Central Value: -0.8716930449008942
+ Lower Bound: -1.0293877646327019
+ Upper Bound: -0.8166017234325409
+
+Nominal Value: SF_tp3
+ Central Value: 1.0650829076766968
+ Lower Bound: 0.96565181016922
+ Upper Bound: 1.166390061378479
+
+tp2jms:
+ Central Value: 0.3072957396507263
+ Lower Bound: 0.24743539094924927
+ Upper Bound: 0.3672349452972412
+
+tp2jms Change from nominal
+ Central Value: -0.4639206528663635
+ Lower Bound: -0.49167585372924805
+ Upper Bound: -0.43667423725128174
+
+tp2jmr:
+ Central Value: -0.302884966135025
+ Lower Bound: -0.5172491073608398
+ Upper Bound: -0.12902207672595978
+
+tp2jmr Change from nominal
+ Central Value: -1.0741013586521149
+ Lower Bound: -1.2563603520393372
+ Upper Bound: -0.9329312592744827
+
+Nominal Value: SF_tp2
+ Central Value: 0.7712163925170898
+ Lower Bound: 0.7391112446784973
+ Upper Bound: 0.803909182548523
+
+tp1jms:
+ Central Value: -0.4007074236869812
+ Lower Bound: -0.5380449295043945
+ Upper Bound: -0.25384441018104553
+
+tp1jms Change from nominal
+ Central Value: -1.324989914894104
+ Lower Bound: -1.4201167225837708
+ Upper Bound: -1.2208260595798492
+
+tp1jmr:
+ Central Value: -0.298810213804245
+ Lower Bound: -0.298810213804245
+ Upper Bound: 0.20668725669384003
+
+tp1jmr Change from nominal
+ Central Value: -1.2230927050113678
+ Lower Bound: -1.1808820068836212
+ Upper Bound: -0.7602943927049637
+
+Nominal Value: SF_tp1
+ Central Value: 0.9242824912071228
+ Lower Bound: 0.8820717930793762
+ Upper Bound: 0.9669816493988037
+
+otherjms:
+ Central Value: -0.7450512647628784
+ Lower Bound: -0.7450512647628784
+ Upper Bound: 0.12068048864603043
+
+otherjms Change from nominal
+ Central Value: -0.7450512647629434
+ Lower Bound: -0.7450512647628784
+ Upper Bound: -0.012619055807590485
+
+otherjmr:
+ Central Value: 1.0
+ Lower Bound: 0.5065218210220337
+ Upper Bound: 1.0
+
+otherjmr Change from nominal
+ Central Value: 0.999999999999935
+ Lower Bound: 0.5065218210220337
+ Upper Bound: 0.8667004555463791
+
+Nominal Value: SF_other
+ Central Value: 6.494804694057166e-14
+ Lower Bound: 0.0
+ Upper Bound: 0.1332995444536209
+

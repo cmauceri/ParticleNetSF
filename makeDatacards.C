@@ -74,8 +74,8 @@ void makeOneDatacardTop(TString inputname, TString category, TString wpmin, TStr
   std::cout << "process         4 3 6 -7      4 3 6 -7   \n";
   std::cout << "rate            -1 -1 -1 -1     -1 -1 -1 -1  \n"; 
   std::cout << "------------\n";
-
-
+  
+  
   std::cout << "lumi            lnN      1.025 1.025 1.025 1.025     1.025 1.025 1.025 1.025 \n";
   std::cout << "\n";
     
@@ -100,9 +100,9 @@ void makeOneDatacardTop(TString inputname, TString category, TString wpmin, TStr
   std::cout << "jes         shape    1 1 1 1     1 1 1 1 \n";
   std::cout << "jer         shape    1 1 1 1     1 1 1 1 \n";
   std::cout << "met         shape    1 1 1 1     1 1 1 1 \n";
-  //  std::cout << "lhescalemuf shape    1 1 1 1     1 1 1 1 \n";
-  //std::cout << "lhescalemur shape    1 1 1 1     1 1 1 1 \n";
-  //std::cout << "lhepdf      shape    1 1 1 1     1 1 1 1 \n";
+  std::cout << "lhescalemuf shape    1 1 1 1     1 1 1 1 \n";
+  std::cout << "lhescalemur shape    1 1 1 1     1 1 1 1 \n";
+   //std::cout << "lhepdf      shape    1 1 1 1     1 1 1 1 \n";
     
   std::cout << "norm_top    rateParam    pass    tp3      1   [0.,10.]\n";
   std::cout << "norm_top    rateParam    fail    tp3      1   [0.,10.]\n";
@@ -111,7 +111,7 @@ void makeOneDatacardTop(TString inputname, TString category, TString wpmin, TStr
   std::cout << "norm_top    rateParam    pass    tp1      1   [0.,10.]\n";
   std::cout << "norm_top    rateParam    fail    tp1      1   [0.,10.]\n";
   std::cout << "\n";
-
+  
   std::cout << "*  autoMCStats  0\n";
 }
 
