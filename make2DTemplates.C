@@ -137,16 +137,16 @@ void makeTemplatesTop(TString path2file, TString era, TString cat, TString wpmin
 	  if(name_ == "lhescalemuf")
 	    {
 	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi+"*(LHEScaleWeight[5]*LHEScaleWeightNorm[5])/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
-	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
 	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi+"*(LHEScaleWeight[3]*LHEScaleWeightNorm[3])/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
-	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
 	    }
 	  else if(name_ == "lhescalemur")
 	    {
 	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi+"*(LHEScaleWeight[7]*LHEScaleWeightNorm[7])/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);           
-	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Up",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
 	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi+"*LHEScaleWeight[1]*LHEScaleWeightNorm[1]/(LHEScaleWeight[4]*LHEScaleWeightNorm[4])",cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
-	      makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
+	      //makeMCHistosTop(name,path,processes,process_names,name_,namesys_+"Down",lumi,cuts,brX,binsX,minX,maxX,brY,binsY,minY,maxY,fout);
 	    }                
 	  else
 	    {     
@@ -257,7 +257,7 @@ TH2D *create2Dhisto(TString sample, TTree *tree,TString intLumi,TString cuts,TSt
   TH2D *hTemp = new TH2D(name,name,binsX,minX,maxX,binsY,minY,maxY);
 
   TString massScaleVal_ = "1.05"; if (name.Contains("Down")) { massScaleVal_ = "0.95"; }
-  TString massSmearVal_ = "0.10"; if (name.Contains("Down")) { massSmearVal_ = "0.010"; }
+  TString massSmearVal_ = "0.10"; if (name.Contains("Down")) { massSmearVal_ = "0.0"; }
   
   if (name.Contains("jms")) 
     { 

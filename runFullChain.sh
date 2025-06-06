@@ -94,8 +94,8 @@ then
       elif [ ${version} == "MD" ];
       then
         mist_rates=("2p5" "1p0" "0p5")
-	#WPs_FullVer_vs_QCD=(["2p5"]="0.637" ["1p0"]="0.845" ["0p5"]="0.910") #0: 2p5, 1: 1p0, 2: 0p5 #2015
-        WPs_FullVer_vs_QCD=(["2p5"]="0.642" ["1p0"]="0.842" ["0p5"]="0.907") #0: 2p5, 1: 1p0, 2: 0p5 #2016
+	WPs_FullVer_vs_QCD=(["2p5"]="0.637" ["1p0"]="0.845" ["0p5"]="0.910") #0: 2p5, 1: 1p0, 2: 0p5 #2015
+        #WPs_FullVer_vs_QCD=(["2p5"]="0.642" ["1p0"]="0.842" ["0p5"]="0.907") #0: 2p5, 1: 1p0, 2: 0p5 #2016
       fi 
     fi
 fi 
@@ -114,7 +114,7 @@ do
       cmd_datacards=$(echo 'makeDatacards.C("'${era}'","tt1l","'${category}'","'${wpmin}'","1.00")')
       cmd_makefits=$(echo 'makeFits.C("'${era}'","'${category}'","'${wpmin}'","1.00","tt1l")')
      
-      root -l -q ${cmd_templates2d}
+#      root -l -q ${cmd_templates2d}
       root -l -q ${cmd_templates1d}
       root -l -q ${cmd_datacards}
       root -l -q ${cmd_makefits} | tee ${object}_${year}_${version}_${wpmin}.txt
